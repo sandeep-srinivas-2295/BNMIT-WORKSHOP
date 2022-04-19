@@ -1,8 +1,8 @@
 # BNMIT-WORKSHOP
 
 Circuit Connection:
-vcc >> 5v
-gnd >> Ground
+vcc >> 5v,
+gnd >> Ground,
 OUT/sig >> GPIO4
 
 PROGRAMMING THE DHT11 WITH PYTHON
