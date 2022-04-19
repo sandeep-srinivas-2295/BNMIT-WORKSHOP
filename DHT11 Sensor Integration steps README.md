@@ -34,7 +34,6 @@ To install the Adafruit DHT11 library:
 OUTPUT TO AN SSH TERMINAL
 This Python program will output the temperature and humidity readings to an SSH terminal:
 
-**
 #!/usr/bin/python
 import sys
 import Adafruit_DHT
