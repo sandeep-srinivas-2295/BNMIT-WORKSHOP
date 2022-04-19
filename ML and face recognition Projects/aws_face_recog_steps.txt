@@ -33,7 +33,7 @@ aws rekognition index-faces --image '{"S3Object":{"Bucket":"team1-bnmit","Name":
 
 #Step 6
 #Run search-faces-by-image command
-aws rekognition search-faces-by-image --image '{"S3Object":{"Bucket":"team1-bnmit"","Name":"new.jpg"}}' --collection-id "team1" --region ap-south-1 --profile default| jq '.FaceMatches| .[] | .Face.FaceId'
+aws rekognition search-faces-by-image --image '{"S3Object":{"Bucket":"team1-bnmit","Name":"new.jpg"}}' --collection-id "team1" --region ap-south-1 --profile default| jq '.FaceMatches| .[] | .Face.FaceId'
 
 
 
