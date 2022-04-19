@@ -31,15 +31,5 @@ To install the Adafruit DHT11 library:
 
 **sudo python setup.py install**
 
-OUTPUT TO AN SSH TERMINAL
-This Python program will output the temperature and humidity readings to an SSH terminal:
+Now go to Raspberry PI electronics folder to get the code
 
-#!/usr/bin/python
-import sys
-import Adafruit_DHT
-
-while True:
-
-    humidity, temperature = Adafruit_DHT.read_retry(11, 4)
-
-    print 'Temp: {0:0.1f} C  Humidity: {1:0.1f} %'.format(temperature, humidity)
