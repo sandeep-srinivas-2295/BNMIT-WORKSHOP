@@ -3,12 +3,12 @@
 Software Setup
 To start with update your package lists and install a few Python libraries :
 
-**sudo apt-get update
+**sudo apt-get update**
 **sudo apt-get install build-essential python-dev**
 Then clone the Adafruit library from their repository :
 
-**git clone https://github.com/adafruit/Adafruit_Python_DHT.git
-cd Adafruit_Python_DHT**
+**git clone https://github.com/adafruit/Adafruit_Python_DHT.git**
+**cd Adafruit_Python_DHT**
 Then install the library for Python 2 and Python 3 :
 
 **sudo python setup.py install
@@ -23,8 +23,8 @@ cd Adafruit_Python_DHT
 cd examples**
 Then :
 
-**python AdafruitDHT.py 11 17**
-The example script takes two parameters. The first is the sensor type so is set to “11” to represent the DHT11. The second is the GPIO number so for my example I am using “17” for GPIO17. You can change this if you are using a different GPIO pin for your data/out wire.
+**python3 AdafruitDHT.py 11 4**
+The example script takes two parameters. The first is the sensor type so is set to “11” to represent the DHT11. The second is the GPIO number so for my example I am using “04” for GPIO4. You can change this if you are using a different GPIO pin for your data/out wire.
 
 You should see an output similar to this :
 
